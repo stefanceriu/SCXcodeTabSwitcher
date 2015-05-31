@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18332C7F1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18332C6D1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m */; };
+		185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B2DD91B19B9550011EC0E /* IDEKit.framework */; };
+		186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A85891B17AC91000EA05B /* IDESourceEditor */; };
+		1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188308091A7411830005DF40 /* DVTKit.framework */; };
+		18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE09B51707639E00118FEB /* Cocoa.framework */; };
+		8742532317307161001C947C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8742532217307161001C947C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18332C6C1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXcodeTabSwitcher.h; sourceTree = "<group>"; };
+		18332C6D1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXcodeTabSwitcher.m; sourceTree = "<group>"; };
+		18332C711B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SCXcodeTabSwitcher-Info.plist"; sourceTree = "<group>"; };
+		18332C721B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCXcodeTabSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		18332C7C1B1A0A4F009CF2FE /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		185B2DD91B19B9550011EC0E /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		186A85891B17AC91000EA05B /* IDESourceEditor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IDESourceEditor; path = /Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS/IDESourceEditor; sourceTree = "<group>"; };
+		188308091A7411830005DF40 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		18A35F871B1B04AE0013C442 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		18A35F881B1B04AE0013C442 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		18A35F891B1B04AE0013C442 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		18A35F8A1B1B04AE0013C442 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		18A35F8B1B1B04C60013C442 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		18FE09B21707639E00118FEB /* SCXcodeTabSwitcher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCXcodeTabSwitcher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE09B51707639E00118FEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18FE09B81707639E00118FEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18FE09BA1707639E00118FEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8742532217307161001C947C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE09AF1707639E00118FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8742532317307161001C947C /* QuartzCore.framework in Frameworks */,
+				186A858A1B17AC91000EA05B /* IDESourceEditor in Frameworks */,
+				1883080A1A7411830005DF40 /* DVTKit.framework in Frameworks */,
+				18FE09B61707639E00118FEB /* Cocoa.framework in Frameworks */,
+				185B2DDA1B19B9550011EC0E /* IDEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18332C671B1A0A4F009CF2FE /* SCXcodeTabSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				18332C6C1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.h */,
+				18332C6D1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m */,
+				18332C701B1A0A4F009CF2FE /* Supporting Files */,
+				18332C731B1A0A4F009CF2FE /* Xcode Headers */,
+			);
+			path = SCXcodeTabSwitcher;
+			sourceTree = "<group>";
+		};
+		18332C701B1A0A4F009CF2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18332C711B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Info.plist */,
+				18332C721B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18332C731B1A0A4F009CF2FE /* Xcode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				18A35F871B1B04AE0013C442 /* DVTViewController.h */,
+				18A35F881B1B04AE0013C442 /* IDEEditor.h */,
+				18A35F891B1B04AE0013C442 /* IDESourceCodeEditor.h */,
+				18A35F8B1B1B04C60013C442 /* IDESourceCodeEditorContainerView.h */,
+				18A35F8A1B1B04AE0013C442 /* IDEViewController.h */,
+				18332C7C1B1A0A4F009CF2FE /* IDEWorkspaceWindowController.h */,
+			);
+			path = "Xcode Headers";
+			sourceTree = "<group>";
+		};
+		18FE09A91707639E00118FEB = {
+			isa = PBXGroup;
+			children = (
+				18332C671B1A0A4F009CF2FE /* SCXcodeTabSwitcher */,
+				18FE09B41707639E00118FEB /* Frameworks */,
+				18FE09B31707639E00118FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE09B31707639E00118FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE09B21707639E00118FEB /* SCXcodeTabSwitcher.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE09B41707639E00118FEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FE09B81707639E00118FEB /* AppKit.framework */,
+				18FE09B51707639E00118FEB /* Cocoa.framework */,
+				188308091A7411830005DF40 /* DVTKit.framework */,
+				18FE09BA1707639E00118FEB /* Foundation.framework */,
+				185B2DD91B19B9550011EC0E /* IDEKit.framework */,
+				186A85891B17AC91000EA05B /* IDESourceEditor */,
+				8742532217307161001C947C /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE09B11707639E00118FEB /* SCXcodeTabSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE09C41707639E00118FEB /* Build configuration list for PBXNativeTarget "SCXcodeTabSwitcher" */;
+			buildPhases = (
+				18FE09AE1707639E00118FEB /* Sources */,
+				18FE09AF1707639E00118FEB /* Frameworks */,
+				18FE09B01707639E00118FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCXcodeTabSwitcher;
+			productName = SCXcodeMinimap;
+			productReference = 18FE09B21707639E00118FEB /* SCXcodeTabSwitcher.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE09AA1707639E00118FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stefan Ceriu";
+			};
+			buildConfigurationList = 18FE09AD1707639E00118FEB /* Build configuration list for PBXProject "SCXcodeTabSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FE09A91707639E00118FEB;
+			productRefGroup = 18FE09B31707639E00118FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE09B11707639E00118FEB /* SCXcodeTabSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE09B01707639E00118FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE09AE1707639E00118FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18332C7F1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FE09C21707639E00118FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18FE09C31707639E00118FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FE09C51707639E00118FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/OtherFrameworks",
+				);
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCXcodeTabSwitcher/Supporting Files/SCXcodeTabSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "SCXcodeTabSwitcher/Supporting Files/SCXcodeTabSwitcher-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/DebuggerUI.ideplugin/Contents/MacOS",
+				);
+				PRODUCT_NAME = SCXcodeTabSwitcher;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		18FE09C61707639E00118FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/OtherFrameworks",
+				);
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCXcodeTabSwitcher/Supporting Files/SCXcodeTabSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "SCXcodeTabSwitcher/Supporting Files/SCXcodeTabSwitcher-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/IDESourceEditor.ideplugin/Contents/MacOS",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/PlugIns/DebuggerUI.ideplugin/Contents/MacOS",
+				);
+				PRODUCT_NAME = SCXcodeTabSwitcher;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE09AD1707639E00118FEB /* Build configuration list for PBXProject "SCXcodeTabSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE09C21707639E00118FEB /* Debug */,
+				18FE09C31707639E00118FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE09C41707639E00118FEB /* Build configuration list for PBXNativeTarget "SCXcodeTabSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE09C51707639E00118FEB /* Debug */,
+				18FE09C61707639E00118FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE09AA1707639E00118FEB /* Project object */;
+}
