@@ -9,7 +9,7 @@ Notes:
 * you can still configure the next/previous tab actions from Xcode as normal
 
 #### Installation
-- Through [Alcatraz](https://github.com/supermarin/Alcatraz)
+- Through [Alcatraz](https://github.com/Alcatraz/Alcatraz)
 
 - Download the sources, build the project and restart Xcode
 
