@@ -19,14 +19,10 @@
 		18332C6D1B1A0A4F009CF2FE /* SCXcodeTabSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXcodeTabSwitcher.m; sourceTree = "<group>"; };
 		18332C711B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SCXcodeTabSwitcher-Info.plist"; sourceTree = "<group>"; };
 		18332C721B1A0A4F009CF2FE /* SCXcodeTabSwitcher-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCXcodeTabSwitcher-Prefix.pch"; sourceTree = "<group>"; };
-		18332C7C1B1A0A4F009CF2FE /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
 		185B2DD91B19B9550011EC0E /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
 		188308091A7411830005DF40 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = /Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
-		18A35F871B1B04AE0013C442 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
-		18A35F881B1B04AE0013C442 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
-		18A35F891B1B04AE0013C442 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
-		18A35F8A1B1B04AE0013C442 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
-		18A35F8B1B1B04C60013C442 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		18EA68E71FB2092900093C6A /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		18EA68E81FB2098100093C6A /* IDEWorkspaceTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceTabController.h; sourceTree = "<group>"; };
 		18FE09B21707639E00118FEB /* SCXcodeTabSwitcher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCXcodeTabSwitcher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE09B51707639E00118FEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		18FE09B81707639E00118FEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,12 +68,8 @@
 		18332C731B1A0A4F009CF2FE /* Xcode Headers */ = {
 			isa = PBXGroup;
 			children = (
-				18A35F871B1B04AE0013C442 /* DVTViewController.h */,
-				18A35F881B1B04AE0013C442 /* IDEEditor.h */,
-				18A35F891B1B04AE0013C442 /* IDESourceCodeEditor.h */,
-				18A35F8B1B1B04C60013C442 /* IDESourceCodeEditorContainerView.h */,
-				18A35F8A1B1B04AE0013C442 /* IDEViewController.h */,
-				18332C7C1B1A0A4F009CF2FE /* IDEWorkspaceWindowController.h */,
+				18EA68E81FB2098100093C6A /* IDEWorkspaceTabController.h */,
+				18EA68E71FB2092900093C6A /* IDEWorkspaceWindowController.h */,
 			);
 			path = "Xcode Headers";
 			sourceTree = "<group>";

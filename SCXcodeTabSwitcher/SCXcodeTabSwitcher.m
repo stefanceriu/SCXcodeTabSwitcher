@@ -7,8 +7,6 @@
 //
 
 #import "SCXcodeTabSwitcher.h"
-
-#import "IDESourceCodeEditor.h"
 #import "IDEWorkspaceWindowController.h"
 
 @interface SCXcodeTabSwitcher ()
@@ -70,14 +68,16 @@
 
 - (void)selectTabNumber:(NSUInteger)tabNumber
 {
-	NSWindow *keyWindow = [[NSApplication sharedApplication] keyWindow];
-	IDEWorkspaceWindowController *workspaceWindowController = [IDEWorkspaceWindowController workspaceWindowControllerForWindow:keyWindow];
-	
-	if(tabNumber >= workspaceWindowController.tabView.numberOfTabViewItems) {
-		return;
-	}
-	
-	[workspaceWindowController _showTab:[workspaceWindowController.tabView tabViewItemAtIndex:tabNumber]];
+    NSWindow *keyWindow = [[NSApplication sharedApplication] keyWindow];
+    IDEWorkspaceWindowController *workspaceWindowController = [IDEWorkspaceWindowController workspaceWindowControllerForWindow:keyWindow];
+    
+    NSArray<IDEWorkspaceWindowController *> *workspaceWindowControllers = [workspaceWindowController workspaceWindowControllersForTabGroup];
+    
+    if(tabNumber >= workspaceWindowControllers.count) {
+        return;
+    }
+    
+    [workspaceWindowControllers[tabNumber] showWindow:nil];
 }
 
 @end
