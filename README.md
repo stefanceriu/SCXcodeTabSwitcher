@@ -2,7 +2,7 @@
 
 SCXcodeTabSwitcher enables changing Xcode tabs using the ⌘cmd + [1..9] keys.
 
-![SCXcodeTabSwitcher](https://drive.google.com/uc?export=download&id=0ByLCkUO90ltoZkpiSkdEMWM0MjA)
+![SCXcodeTabSwitcher](https://drive.google.com/u/0/uc?id=1cHf3LgeHF0bZ24OiKyc1ySm3trBZL9Xr&export=download)
 
 Notes:
 * this will override Xcode's default navigators actions. You will need to go to Preferences/KeyBindings and map them to something else.
